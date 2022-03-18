@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './logo_pizza.png';
 import './App.css';
+import PizzeriasList from './components/PizzeriasList';
 
 function App() {
   return (
@@ -7,16 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          La Aplicación para los amantes de la Pizza!!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Pizza Vs Pizza</h1>
+        <PizzeriasList/>
       </header>
     </div>
   );
